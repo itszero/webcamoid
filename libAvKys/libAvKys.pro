@@ -44,6 +44,7 @@ isEmpty(NOAVFOUNDATION): qtCompileTest(avfoundation)
 isEmpty(NOCOREMEDIAIO): qtCompileTest(cmio)
 isEmpty(NOCOREAUDIO): qtCompileTest(coreaudio)
 isEmpty(NODSHOW): qtCompileTest(dshow)
+isEmpty(NOOPENCV): qtCompileTest(opencv)
 
 # Test FFmpeg
 isEmpty(NOFFMPEG) {

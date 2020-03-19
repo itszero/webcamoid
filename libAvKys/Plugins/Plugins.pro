@@ -41,6 +41,7 @@ isEmpty(NOVCAM): {
 # Video effects
 isEmpty(NOVIDEOEFFECTS): SUBDIRS += \
     Aging \
+    AutoBlur \
     Blur \
     Cartoon \
     ChangeHSL \
