@@ -83,4 +83,3 @@ addons:
     s3_region: "us-west-2"
     paths:
       - $(ls ports/deploy/packages_auto/* | tr "\n" ":")
-    working_dir: ports/deploy/packages_auto
