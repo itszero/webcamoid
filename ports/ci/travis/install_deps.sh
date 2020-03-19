@@ -485,6 +485,9 @@ elif [ "${TRAVIS_OS_NAME}" = osx ]; then
         qt5 \
         ffmpeg
 
+    brew unlink python@2
+    brew link python3
+
     if [ -z "${DAILY_BUILD}" ] && [ -z "${RELEASE_BUILD}" ]; then
         brew install \
             gstreamer \
