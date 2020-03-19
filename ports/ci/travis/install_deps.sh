@@ -483,7 +483,8 @@ elif [ "${TRAVIS_OS_NAME}" = osx ]; then
         ccache \
         pkg-config \
         qt5 \
-        ffmpeg
+        ffmpeg \
+        opencv
 
     brew unlink python@2
     brew link python3
